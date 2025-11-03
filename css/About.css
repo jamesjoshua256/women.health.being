@@ -1,0 +1,129 @@
+*{
+    background: white;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    
+    
+}
+.nav a{
+    color: #f511a1;
+    text-decoration: none;
+    padding: 10px;
+
+}
+.intro{
+    display: flex;
+}
+.intro div{
+    width: 50%;
+    
+}
+.intro img{
+    width: 100%;
+    border-radius: 10px;
+}
+.intro a{
+    color: #f511a1;
+    text-decoration: none;
+}
+.m{
+    color: #f511a1;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.mental{
+     display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.mental div{
+    width: 32%;
+}
+.mental img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.mental h3{
+    color: #f511a1;
+    text-decoration: none;
+    font-weight: bold;
+}
+.mental a{
+     color: #f511a1;
+    text-decoration: none;
+}
+
+.fit{
+    display:flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.fit div{
+    width: 32%;
+}
+.fit img{
+    width: 100%;
+} 
+.story {
+      display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.story div{
+    width: 32%;
+}
+
+
+.story img{
+width: 100%;
+border-radius: 50%;
+max-height: 200px;
+max-width: 100px;
+background: black
+}
+
+.tell{
+    text-align: center;
+}
+.tell p{
+    color: #f511a1;
+}
+.story h4{
+    color: #f511a1;
+    font-weight: bold;
+}
+
+.btt{
+    text-align: center;
+}
+.last a{
+    color: #f511a1;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer ,footer h3,footer p{
+     text-align: center;
+    background:#fa95d5;
+    color: white;
+    padding: 25px 0;
+}
+@media (max-width:500px){
+    .intro{
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    .fit{
+        width: 70%;
+    }
+
+}

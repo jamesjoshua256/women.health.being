@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    background:  #fa95d5;
+    padding: 0;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    width:100%
+}
+
+.logo img {
+    height: 70px;
+    width: auto;
+    border-radius: 15px;
+}
+
+.nav a {
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 0 auto 20px;
+}
+.nav .button {
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav button {
+    
+    color: #f511a1;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 13px;
+    
+}
+
+
+.first{
+    display: flex;
+}
+.first div{
+    width: 100%;
+}
+.first h1 {
+     font-size: 50px;
+    padding: 20px 0;
+}
+.first h2{
+    font-size: 30px;
+}
+.empower{
+display: flex;
+}
+.empower div{
+    width: 50%;
+}
+.empower img{
+    width: 100%;
+    border-radius: 10px;
+}
+.empower button{
+    width: 50%;
+    margin: 0% auto 10px;
+    border-radius: 15px;  
+    color: white;
+    background: #fa95d5;
+}
+.empower a{
+    text-decoration: none;
+    color: #f511a1;
+}
+
+.pics{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.pics h4{
+    color: #f511a1;
+    text-align: center;
+}
+.pics p{
+    text-align: center;
+}
+.pics div{
+    width: 32.5%;
+}
+.pics img{
+    width: 100%;
+    border-radius: 10px;
+}
+footer,footer h3,footer p{
+    text-align: center;
+    background:#fa95d5;
+    color: white;
+    padding: 25px 0;
+}
+@media (max-width:500px){
+    .first{
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    .pics{
+        width: 70%;
+    }
+
+}
